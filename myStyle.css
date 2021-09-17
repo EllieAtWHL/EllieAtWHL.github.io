@@ -1,0 +1,30 @@
+
+/*** COLOUR CODES
+
+background: #093E00
+text: #C2CFBF
+headings: #E0E7DF
+alternate dark: #00093E
+third dark: #3E0009
+
+*/
+
+body {
+    background-color: #093E00;
+}
+
+h1   {
+    color: #E0E7DF;
+    text-align: center;
+}
+
+p    {
+    color: #C2CFBF;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
