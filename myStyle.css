@@ -38,12 +38,13 @@ ul {
 }
 
 ul a {
-    color: #E0E7DF;
     text-decoration: none;
+    color: #C2CFBF;
 }
 
 ul a:hover {
     text-decoration: underline;
+    color: #E0E7DF;
 }
 
 /***** CUSTOM STYLES ***/
@@ -56,40 +57,47 @@ ul a:hover {
 
 .menu  {
     overflow: hidden;
-    background-color: #150003;
-    border: 4px solid #150003;
+    border-bottom: 4px solid #150003;
+}
+
+.menu img {
+    max-width: 6%;
+    height: auto;
 }
 
 .menu a {
-    float: left;
+    /*float: left;*/
     color: #C2CFBF;
     text-align: center;
-    padding: 4px 6px;
-    border-radius: 10px;
+    padding: 4px 4px;
+    /*border-radius: 10px;*/
     text-decoration: none;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 .menu a:hover {
-    background-color: #E0E7DF;
-    color: #150003;
+    /*background-color: #E0E7DF;*/
+    font-style: italic;
+    text-decoration: underline;
+    color: #E0E7DF;
+    /*color: #150003;*/
 }
 
-.menu a.active {
+.menu span.active {
     background-color: #000315;
-    color: #C2CFBF;
-    border: 1px solid#C2CFBF;
+    color: #E0E7DF;
+    font-weight: bold;
 }
 
 .menu .icon {
     display: none;
-  }
+}
 
 .badge {
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
-    max-width: 6%;
+    max-width: 2%;
     height: auto;
     padding: 3px;
 }
@@ -98,10 +106,8 @@ ul a:hover {
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
-    max-width: 50%;
+    max-width: 25%;
     height: auto;
-    border-radius: 0 60px 0 60px;
-    padding: 5px;
 }
 
 .responsive {
