@@ -4,15 +4,16 @@
 background: #031500
 text: #C2CFBF
 headings: #E0E7DF
-alternate dark: #000315
-third dark: #150003
+alternate dark (blue): #000315
+third dark (maroon): #150003
 
 */
 
 body {
-    background-color: #031500;
-    color: #C2CFBF;
+    background-color: #FFF;
+    color: #031500;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
 }
 
 h1   {
@@ -21,15 +22,29 @@ h1   {
 }
 
 header {
-    background-color: #000315;
+    background-color: #031500;
     border-bottom: 4px solid #150003;
     padding: 6px;
 }
 
 footer {
-    background-color: #150003;
+    background-color: #031500;
     border-top: 4px solid #000315;
     padding: 6px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul a {
+    text-decoration: none;
+    color: #C2CFBF;
+}
+
+ul a:hover {
+    text-decoration: underline;
+    color: #E0E7DF;
 }
 
 /***** CUSTOM STYLES ***/
@@ -42,47 +57,57 @@ footer {
 
 .menu  {
     overflow: hidden;
-    background-color: #031500;
+    border-bottom: 4px solid #150003;
+}
+
+.menu img {
+    max-width: 6%;
+    height: auto;
 }
 
 .menu a {
-    float: left;
+    /*float: left;*/
     color: #C2CFBF;
     text-align: center;
-    padding: 4px 6px;
+    padding: 4px 4px;
+    /*border-radius: 10px;*/
     text-decoration: none;
     font-size: 12px;
 }
 
 .menu a:hover {
-    background-color: #E0E7DF;
-    color: #150003;
+    /*background-color: #E0E7DF;*/
+    font-style: italic;
+    text-decoration: underline;
+    color: #E0E7DF;
+    /*color: #150003;*/
 }
 
-.menu a.active {
+.menu span.active {
     background-color: #000315;
-    color: #C2CFBF;
+    color: #E0E7DF;
+    font-weight: bold;
 }
 
 .menu .icon {
     display: none;
-  }
+}
 
 .badge {
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
-    max-width: 6%;
+    max-width: 2%;
     height: auto;
+    padding: 3px;
 }
 
 .banner {
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
-    max-width: 50%;
+    max-width: 10%;
     height: auto;
-    border-radius: 30px;
 }
 
 .responsive {
