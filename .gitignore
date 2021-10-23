@@ -1,2 +1,4 @@
 .DS_Store
-.archive/*
+.archive
+.env
+node_modules
