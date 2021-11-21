@@ -4,31 +4,23 @@
         <title>Ellie Matthewman</title>
         <link rel="shortcut icon" type="image/jpg" href="./images/favicon.jpg"/>
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="myStyle.css">
+        <link rel="stylesheet" href="../styles/myStyle.css">
+
+        <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
+        <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+
+        <script type="text/javascript" src="../scripts/pageTemplate.js"></script>
         <script type="text/javascript" src="./script.js"></script>
     </head>
 
-    <body>
-
-        <header>
-
-            <img src="./images/logo.png" alt="EllieAtWHL" class="banner">
-
-            <nav class="menu" id="myMenu">
-                <a href="../">Home</a>
-                <a class="active" href="./aboutMe.html">About Me</a>
-                <a href="./aboutMe.html">Projects</a>
-                <a href="./aboutMe.html">Contact Me</a>
-                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                  <i class="fa fa-bars"></i>
-                </a>
-            </nav>
-
-        </header>       
+    <body onLoad="pageTemplate();"> 
+        
+        <header id="header"></header>     
         
         <section>
-
+            About Me
             Coming Soon!
         </section>
 
